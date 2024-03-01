@@ -19,13 +19,7 @@ const Button = document.querySelector(
     }
   };
 
-//   const generateMeme = () => {
-//     fetch(" https://meme-api.com/gimme")
-//       .then((response) => response.json())
-//       .then((data) => {
-//         updateDetails(data.url, data.title);
-//       });
-//   };
+
   
   Button.addEventListener("click", generateMeme);
   
